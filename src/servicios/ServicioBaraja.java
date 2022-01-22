@@ -41,7 +41,7 @@ public class ServicioBaraja {
         baraja.setSiguienteCarta(0);
     }
     
-    // Devuelve la siguiente carta que está en la baraja
+    // Muestra la siguiente carta que está en la baraja
     public void siguienteCarta(Baraja baraja){
         int cartaActual = baraja.getSiguienteCarta();
         
@@ -54,12 +54,12 @@ public class ServicioBaraja {
         }
     }
     
-    // Devuelve el numero de cartas disponibles en la baraja
+    // Muestra el numero de cartas disponibles en la baraja
     public int cartasDisponibles(Baraja baraja){
         return baraja.getCANTIDAD() - baraja.getSiguienteCarta();
     }
     
-    // Devuelve la cantidad de cartas pedida
+    // Muestra la cantidad de cartas pedida
     public void darCartas(Baraja baraja, int cantidad){
         if(cantidad > baraja.getCANTIDAD()){
             System.out.println("No se pueden dar más de 40 cartas");
@@ -75,7 +75,7 @@ public class ServicioBaraja {
         }
     }
     
-    // Muestras las cartas restantes que hay en la baraja
+    // Muestra las cartas restantes que hay en la baraja
     // Por ejemplo: si pide una carta y luego se muestra la baraja
     // no se debería de mostrar la carta que se pidió anteriormente
     public void mostrarCartas(Baraja baraja){
@@ -88,7 +88,7 @@ public class ServicioBaraja {
         }
     }
     
-    // Muetras las cartas que ya salieron de la baraja
+    // Muestra las cartas que ya salieron de la baraja
     public void cartasDelMonton(Baraja baraja){
         if(baraja.getSiguienteCarta() == 0){
             System.out.println("No ha salido ninguna carta de la baraja");
