@@ -18,7 +18,7 @@ public class Main {
         boolean fin = true; // Cuando fin sea falso el programa finaliza
         int opcion, cantidadDeCartas;
         
-        System.out.println("En la baraja hay 40 cartas");
+        System.out.println("\nEn la baraja hay 40 cartas");
         System.out.println("Los números de las cartas van del 1 al 12 (el 8 y el 9 estan incluidos)");
         System.out.println("Con los palos: espada, basto, oro y espada");
         
@@ -64,7 +64,7 @@ public class Main {
                     break;
                     
                 case 8:
-                    System.out.println("Finalizando programa...\n¡Qué tenga un buen día!");
+                    System.out.println("\n\nFinalizando programa...\n¡Qué tenga un buen día!");
                     fin = false;
                     break;
                 
