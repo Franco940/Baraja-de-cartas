@@ -19,7 +19,7 @@ public class Main {
         int opcion, cantidadDeCartas;
         
         System.out.println("\nEn la baraja hay 40 cartas");
-        System.out.println("Los números de las cartas van del 1 al 12 (el 8 y el 9 estan incluidos)");
+        System.out.println("Los números de las cartas van del 1 al 12 (el 8 y el 9 NO estan incluidos)");
         System.out.println("Con los palos: espada, basto, oro y espada");
         
         menu();
